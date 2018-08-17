@@ -1,0 +1,9 @@
+.env
+.idea
+public
+node_modules
+package.json
+package-lock.json
+config.toml
+content
+update_seatch_index.sh

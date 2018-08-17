@@ -7,3 +7,4 @@ package-lock.json
 config.toml
 content
 update_seatch_index.sh
+hugo-clean-theme.iml

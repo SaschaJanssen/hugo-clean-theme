@@ -1,4 +1,8 @@
 <!-- post list -->
+{{if not $.Paginator.Pages}}
+<h5>Sorry, there are currently no posts available. Stay Tuned...</h5>
+{{end}}
+
 {{ range $index, $element := $.Paginator.Pages }}
 <div class="post-preview">
     <a href="{{ .Permalink }}">
